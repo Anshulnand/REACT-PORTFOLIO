@@ -86,28 +86,18 @@ const handleinputfield=(index, e)=>
 
   return (
     <>
-   <header>
-   <h1>hello</h1>
-        <a href="#" className="logo">
-          ANSHUL
-        </a>
-        <nav>
-          {navLinks.map((link, index) => (
-            <a
-              key={index}
-              href={link.href}
-              className={
-                activelink === link.name
-                  ? "underline-animation active"
-                  : "underline-animation"
-              }
-              onClick={(e) => handleClick(link, e)}
-            >
-              {link.name}
-            </a>
-          ))}
-        </nav>
-      </header>
+   
+  <header>
+    <h1>Hello</h1>
+    <a href="#" class="logo">ANSHUL</a>
+    <nav>
+      <a href="#home" class="underline-animation">Home</a>
+      <a href="#about" class="underline-animation">About</a>
+      <a href="#services" class="underline-animation">Services</a>
+      <a href="#contact" class="underline-animation">Contact</a>
+    </nav>
+  </header>
+
 
       {/* CONTENT INSIDE */}
       <section className="content" id="Home">
