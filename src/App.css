@@ -23,15 +23,16 @@ body{
 }
 header
 {
-  background-color: #8e8e8e;
-
+  background-color: #000000;
+opacity:90%;
+  position:fixed;
   width:100%;
   padding:0.5rem 9%;
-
+  filter:drop-shadow(10px);
   display:flex;
   justify-content:space-between;
   align-items: center;
-
+  z-index: 1;
 
   
 }
@@ -40,7 +41,8 @@ header
   font-size:3rem;
   color:rgb(255, 0, 0);
   font-weight: 800;
-
+  cursor:pointer;
+  transition:ease 0.5s;
 }
 .logo:hover{
 transform:scale(1.1);
@@ -50,8 +52,10 @@ nav a{
   
 font-size:1.8rem;
 color:white;
-
-
+margin:2rem;
+transition:0.3s;
+border-bottom:3px solid transparent;
+transition:ease 0.5s all;
 
 }
 nav a:hover, nav a.active
