@@ -5,7 +5,8 @@ import profilePic2 from "./images/pic6.png";
 import projectimg1 from "./images-project/windows.jpg";
 import projectimg2 from "./images-project/MUSIC PLAYER.png";
 import projectimg3 from "./images-project/CALC.png";
-import "./index1.css";
+import "./styles.css";
+import "./App.css";
 
 const App = () => {
 
