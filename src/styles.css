@@ -25,11 +25,19 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding:0.5rem 9%;
   background-color: black;
   color: white;
+  z-index: 1;
 }
+/* background-color: #000000;
+opacity:90%;
+  position:fixed;
+  width:100%;
+  padding:0.5rem 9%;
+  filter:drop-shadow(10px);
 
+  z-index: 1; */
 /* Logo styling */
 .logo {
   font-size:3rem;
