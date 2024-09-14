@@ -32,6 +32,7 @@ body{
 
 /* Logo styling */
 .logo {
+  font-size:3rem;
   font-size: 1.5rem;
   font-weight: bold;
   color: rgb(255, 0, 0);
@@ -46,6 +47,7 @@ nav {
 
 /* Links inside the navbar */
 nav a {
+  font-size:1.8rem;
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
