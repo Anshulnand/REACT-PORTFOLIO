@@ -21,11 +21,7 @@ const [social, setsocial]=useState([
 
 // NAVBAR OPTIONS
   const [navLinks, setNavLinks] = useState([
-    { name: "Home", href: "#Home" },
-    { name: "About", href: "#About" },
-    { name: "Skills", href: "#Skills" },
-    { name: "Portfolio", href: "#Portfolio" },
-    { name: "Contact", href: "#Contact" },
+    
   ]);
 
   // contact field
@@ -91,10 +87,10 @@ const handleinputfield=(index, e)=>
 
     <a href="#" class="logo">ANSHUL</a>
     <nav>
-      <a href="#home" class="underline-animation" onClick={handleClick} >Home</a>
-      <a href="#about" class="underline-animation" onClick={handleClick} >About</a>
-      <a href="#services" class="underline-animation" onClick={handleClick} >Services</a>
-      <a href="#contact" class="underline-animation" onClick={handleClick} >Contact</a>
+      <a href="#home" class="underline-animation" onClick={handleClick}>Home</a>
+      <a href="#about" class="underline-animation" onClick={handleClick}>About</a>
+      <a href="#services" class="underline-animation" onClick={handleClick}>Services</a>
+      <a href="#contact" class="underline-animation" onClick={handleClick}>Contact</a>
     </nav>
   </div >
 

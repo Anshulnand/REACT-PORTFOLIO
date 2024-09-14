@@ -22,16 +22,12 @@ body{
   color:white;
 }
 .header {
-  background-color: #000000;
-  opacity:90%;
-    position:fixed;
-    width:100%;
-    padding:0.5rem 9%;
-    filter:drop-shadow(10px);
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
 }
 
 /* Logo styling */
