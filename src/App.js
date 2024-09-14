@@ -120,7 +120,7 @@ const handleinputfield=(index, e)=>
           className="home-content animate"
         >
           <h1>
-            Hi, It's <span>ANSHULA</span>
+            Hi, It's <span>ANSHUL</span>
           </h1>
           <MyComponent />
           <p>
