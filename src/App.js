@@ -20,10 +20,13 @@ const [social, setsocial]=useState([
 ])
 
 // NAVBAR OPTIONS
- 
-
-
-
+  const [navLinks, setNavLinks] = useState([
+    { name: "Home", href: "#Home" },
+    { name: "About", href: "#About" },
+    { name: "Skills", href: "#Skills" },
+    { name: "Portfolio", href: "#Portfolio" },
+    { name: "Contact", href: "#Contact" },
+  ]);
 
   // contact field
 
@@ -89,7 +92,20 @@ const handleinputfield=(index, e)=>
           ANSHUL
         </a>
         <nav>
-         
+          {navLinks.map((link, index) => (
+            <a
+              key={index}
+              href={link.href}
+              className={
+                activelink === link.name
+                  ? "underline-animation active"
+                  : "underline-animation"
+              }
+              onClick={(e) => handleClick(link, e)}
+            >
+              {link.name}
+            </a>
+          ))}
         </nav>
       </header>
 
@@ -106,7 +122,7 @@ const handleinputfield=(index, e)=>
           className="home-content animate"
         >
           <h1>
-            Hi, It's <span>ANSHULA</span>
+            Hi, It's <span>ANSHUL</span>
           </h1>
           <MyComponent />
           <p>
