@@ -87,6 +87,7 @@ const handleinputfield=(index, e)=>
   return (
     <>
    <header>
+   <h1>hello</h1>
         <a href="#" className="logo">
           ANSHUL
         </a>
@@ -135,7 +136,7 @@ const handleinputfield=(index, e)=>
           <div
             ref={(el) => (animateRefs.current[2] = el)}
             className="social animate">
-              <h1>hello</h1>
+      
                 {social.map((item, index)=>
                 (
                     <a 
