@@ -87,7 +87,7 @@ const handleinputfield=(index, e)=>
   return (
     <>
    
-  <header>
+  <div className="header">
     <h1>Hello</h1>
     <a href="#" class="logo">ANSHUL</a>
     <nav>
@@ -96,7 +96,7 @@ const handleinputfield=(index, e)=>
       <a href="#services" class="underline-animation">Services</a>
       <a href="#contact" class="underline-animation">Contact</a>
     </nav>
-  </header>
+  </div >
 
 
       {/* CONTENT INSIDE */}
