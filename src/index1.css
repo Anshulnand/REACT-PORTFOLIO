@@ -516,11 +516,12 @@ h1 {
   width:50rem;
   height:50rem;
   gap: 10px;
-  padding-inline: 2em;
+  padding: 2em;  
   padding-bottom: 0.4em;
   background-color: #171717;
  
   border-radius: 20px;
+  /* changed padding inline to inline */
 }
 
 .form-heading {
@@ -553,7 +554,8 @@ h1 {
   outline: none;
   width: 100%;
   color: #ccd6f6;
-  padding-inline: 1em;
+  padding: 1em;
+  /* changed padding inline to inline */
 }
 
 .sendMessage-btn {

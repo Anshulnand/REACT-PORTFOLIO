@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import profilePic from "./images/pic5.jpg";
+import profilePic from "./images/profileppic2.jpg";
 import MyComponent from "./MyComponent";
 import profilePic2 from "./images/pic6.png";
 import projectimg1 from "./images-project/windows.jpg";
