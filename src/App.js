@@ -88,7 +88,7 @@ const handleinputfield=(index, e)=>
     <>
    
   <div className="header">
-    <h1>Hello</h1>
+
     <a href="#" class="logo">ANSHUL</a>
     <nav>
           {navLinks.map((link, index) => (
