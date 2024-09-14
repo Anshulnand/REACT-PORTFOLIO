@@ -25,12 +25,10 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0.5rem 9%;
+  padding: 20px;
   background-color: black;
   color: white;
   z-index: 1;
-  opacity:90%;
-
 }
 /* background-color: #000000;
 opacity:90%;
@@ -39,7 +37,7 @@ opacity:90%;
   padding:0.5rem 9%;
   filter:drop-shadow(10px);
 
- 
+  z-index: 1; */
 /* Logo styling */
 .logo {
   font-size:3rem;
