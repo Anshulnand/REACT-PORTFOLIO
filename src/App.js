@@ -85,72 +85,27 @@ const handleinputfield=(index, e)=>
 
   return (
     <>
-      <nav
-      style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        backgroundColor: '#333',
-        padding: '10px 20px',
-      }}
-    >
-      <div
-        style={{
-          color: '#fff',
-          fontSize: '24px',
-          fontWeight: 'bold',
-        }}
-      >
-        MyLogo
-      </div>
-      <div
-        style={{
-          display: 'flex',
-          gap: '15px',
-        }}
-      >
-        <a
-          href="/"
-          style={{
-            color: '#fff',
-            textDecoration: 'none',
-            padding: '8px 16px',
-          }}
-        >
-          Home
+   <header>
+        <a href="#" className="logo">
+          ANSHUL
         </a>
-        <a
-          href="/about"
-          style={{
-            color: '#fff',
-            textDecoration: 'none',
-            padding: '8px 16px',
-          }}
-        >
-          About
-        </a>
-        <a
-          href="/services"
-          style={{
-            color: '#fff',
-            textDecoration: 'none',
-            padding: '8px 16px',
-          }}
-        >
-          Services
-        </a>
-        <a
-          href="/contact"
-          style={{
-            color: '#fff',
-            textDecoration: 'none',
-            padding: '8px 16px',
-          }}
-        >
-          Contact
-        </a>
-      </div>
-    </nav>
+        <nav>
+          {navLinks.map((link, index) => (
+            <a
+              key={index}
+              href={link.href}
+              className={
+                activelink === link.name
+                  ? "underline-animation active"
+                  : "underline-animation"
+              }
+              onClick={(e) => handleClick(link, e)}
+            >
+              {link.name}
+            </a>
+          ))}
+        </nav>
+      </header>
 
       {/* CONTENT INSIDE */}
       <section className="content" id="Home">
