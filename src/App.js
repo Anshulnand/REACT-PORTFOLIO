@@ -6,7 +6,7 @@ import projectimg1 from "./images-project/windows.jpg";
 import projectimg2 from "./images-project/MUSIC PLAYER.png";
 import projectimg3 from "./images-project/CALC.png";
 import "./styles.css";
-
+import "./App.css";
 
 const App = () => {
 
@@ -21,7 +21,11 @@ const [social, setsocial]=useState([
 
 // NAVBAR OPTIONS
   const [navLinks, setNavLinks] = useState([
-    
+    { name: "Home", href: "#Home" },
+    { name: "About", href: "#About" },
+    { name: "Skills", href: "#Skills" },
+    { name: "Portfolio", href: "#Portfolio" },
+    { name: "Contact", href: "#Contact" },
   ]);
 
   // contact field
@@ -84,14 +88,24 @@ const handleinputfield=(index, e)=>
     <>
    
   <div className="header">
-
+    <h1>Hello</h1>
     <a href="#" class="logo">ANSHUL</a>
     <nav>
-      <a href="#home" class="underline-animation" onClick={handleClick}>Home</a>
-      <a href="#about" class="underline-animation" onClick={handleClick}>About</a>
-      <a href="#services" class="underline-animation" onClick={handleClick}>Services</a>
-      <a href="#contact" class="underline-animation" onClick={handleClick}>Contact</a>
-    </nav>
+          {navLinks.map((link, index) => (
+            <a
+              key={index}
+              href={link.href}
+              className={
+                activelink === link.name
+                  ? "underline-animation active"
+                  : "underline-animation"
+              }
+              onClick={(e) => handleClick(link, e)}
+            >
+              {link.name}
+            </a>
+          ))}
+        </nav>
   </div >
 
 
