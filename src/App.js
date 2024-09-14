@@ -135,6 +135,7 @@ const handleinputfield=(index, e)=>
           <div
             ref={(el) => (animateRefs.current[2] = el)}
             className="social animate">
+              <h1>hello</h1>
                 {social.map((item, index)=>
                 (
                     <a 
