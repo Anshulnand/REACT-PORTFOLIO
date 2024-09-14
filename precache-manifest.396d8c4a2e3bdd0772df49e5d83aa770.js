@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88b59f64882d69b91f764aab3094920c",
+    "revision": "eb7715645b8cb76d9bf6d5aa166929d2",
     "url": "/REACT-PORTFOLIO/index.html"
   },
   {
-    "revision": "a3adaec03335ec23c052",
-    "url": "/REACT-PORTFOLIO/static/css/main.18ed5662.chunk.css"
+    "revision": "dd5bfedcf581dd8fb26f",
+    "url": "/REACT-PORTFOLIO/static/css/main.ea7e4592.chunk.css"
   },
   {
     "revision": "4355660ae062ed8c17a1",
     "url": "/REACT-PORTFOLIO/static/js/2.10ad2554.chunk.js"
   },
   {
-    "revision": "a3adaec03335ec23c052",
-    "url": "/REACT-PORTFOLIO/static/js/main.2d5663c8.chunk.js"
+    "revision": "dd5bfedcf581dd8fb26f",
+    "url": "/REACT-PORTFOLIO/static/js/main.1e0e48df.chunk.js"
   },
   {
     "revision": "4f43bcfe9f2e80183931",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/REACT-PORTFOLIO/static/media/MUSIC PLAYER.608185ba.png"
   },
   {
-    "revision": "f47c7f2b362b9b8f4d4011ee01ebddaf",
-    "url": "/REACT-PORTFOLIO/static/media/pic5.f47c7f2b.jpg"
-  },
-  {
     "revision": "e4d042e235daf01a3c9dc61cdc8a242b",
     "url": "/REACT-PORTFOLIO/static/media/pic6.e4d042e2.png"
+  },
+  {
+    "revision": "c982626ac87db547986f33782306a838",
+    "url": "/REACT-PORTFOLIO/static/media/profileppic2.c982626a.jpg"
   },
   {
     "revision": "392468f6f60d2b705021e9ea4988c06f",
