@@ -83,8 +83,9 @@ const handleinputfield=(index, e)=>
     });
   }, []);
 
-  (
-    <nav
+  return (
+    <>
+      <nav
       style={{
         display: 'flex',
         justifyContent: 'space-between',
@@ -150,8 +151,7 @@ const handleinputfield=(index, e)=>
         </a>
       </div>
     </nav>
-  );
-};
+
       {/* CONTENT INSIDE */}
       <section className="content" id="Home">
         <div
@@ -165,7 +165,7 @@ const handleinputfield=(index, e)=>
           className="home-content animate"
         >
           <h1>
-            Hi, It's <span>ANSHUL</span>
+            Hi, It's <span>ANSHULA</span>
           </h1>
           <MyComponent />
           <p>
